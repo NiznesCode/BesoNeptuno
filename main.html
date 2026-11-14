@@ -65,7 +65,7 @@ function card(){
   return new Promise(r=>k.toBlob(r,'image/png'));
 }
 async function share(){
-  const t=tx(),url='https://claude.ai/artifact/CjmtGKKjmHc8GWN5ngH1xe',txt=t.sm.replace('{n}',score).replace('{d}',t.lv[dI]),full=txt+' '+url;
+  const t=tx(),url='https://niznescode.github.io/',txt=t.sm.replace('{n}',score).replace('{d}',t.lv[dI]),full=txt+' '+url;
   let bl=null,f=null;
   try{bl=await card();f=new File([bl],'neptuno.png',{type:'image/png'})}catch(e){}
   try{
