@@ -1,2 +1,0 @@
-# BesoNeptuno
-Juego beso neptuno
